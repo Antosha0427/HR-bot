@@ -25,7 +25,7 @@ from datetime import datetime
 import shutil
 import sys
 import time
-from main import YandexDiskManager  #
+from Yandex_disk import YandexDiskManager
 import requests
 
 CURRENT_EDIT_URL = None
@@ -57,7 +57,6 @@ class FileLock:
 
 
 async def merge_excel_files(local_path: str, cloud_path: str) -> bool:
-    """Объединяет данные с приоритетом облачной версии"""
     try:
         temp_cloud = "temp_cloud.xlsx"
         await yandex_disk.download_file(cloud_path, temp_cloud)
@@ -65,7 +64,6 @@ async def merge_excel_files(local_path: str, cloud_path: str) -> bool:
         wb_local = openpyxl.load_workbook(local_path)
         wb_cloud = openpyxl.load_workbook(temp_cloud)
 
-        # Копируем данные из облака в локальный файл
         for row in wb_cloud.active.iter_rows(values_only=True):
             if any(cell is not None for cell in row):
                 wb_local.active.append(row)
@@ -122,7 +120,6 @@ class ConfigLoader:
         for line in decrypted.splitlines():
             if "=" in line:
                 key, value = line.split("=", 1)
-                # Удаляем комментарии из значений
                 value = value.split('#')[0].strip()
                 config_dict[key.strip()] = value.strip()
         return config_dict
@@ -185,7 +182,6 @@ def setup_logging():
         '%(asctime)s - %(levelname)s - %(message)s'
     )
 
-    # Логирование в файл (до 5 МБ, 3 файла бэкапа)
     file_handler = RotatingFileHandler(
         'logs/bot.log',
         maxBytes=5 * 1024 * 1024,
@@ -194,11 +190,9 @@ def setup_logging():
     )
     file_handler.setFormatter(log_formatter)
 
-    # Вывод в консоль
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(log_formatter)
 
-    # Основной логгер
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     logger.addHandler(file_handler)
@@ -473,7 +467,6 @@ async def init_master_data() -> bool:
             wb.save("master_data.xlsx")
             await storage.upload_file("master_data.xlsx", "master_data.xlsx")
 
-            # Создаем enc-версию
             await create_encrypted_version("master_data.xlsx", "enc/master_data.enc")
 
             logger.info("Created new master_data.xlsx with encrypted version")
@@ -482,7 +475,6 @@ async def init_master_data() -> bool:
             backup_name = f"backups/corrupted_master_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx"
             shutil.move("master_data.xlsx", backup_name)
 
-            # Пытаемся восстановить из enc-версии
             if os.path.exists("enc/master_data.enc"):
                 if await restore_from_encrypted("enc/master_data.enc", "master_data.xlsx"):
                     if await is_valid_excel("master_data.xlsx"):
@@ -515,7 +507,7 @@ async def backup_data() -> bool:
             shutil.copy2("logs/bot.log", log_backup)
 
         backups = sorted([f for f in os.listdir("backups") if f.startswith(("master_data_", "logs_"))])
-        for old_backup in backups[:-10]:  # Увеличил до 10 с учетом enc-версий
+        for old_backup in backups[:-10]:
             os.remove(f"backups/{old_backup}")
 
         logger.info("Backup completed with encrypted versions")
@@ -607,11 +599,9 @@ async def admin_online_edit(callback: types.CallbackQuery):
         return
 
     try:
-        # Загружаем текущий файл на Яндекс.Диск
         if not await yandex_disk.upload_file("master_data.xlsx", "/master_data.xlsx"):
             raise Exception("Не удалось загрузить файл на Яндекс.Диск")
 
-        # Получаем ссылку для редактирования
         edit_url = await yandex_disk.get_edit_url("/master_data.xlsx")
         if not edit_url:
             raise Exception("Не удалось получить ссылку для редактирования")
@@ -651,13 +641,11 @@ async def save_online_edit(callback: types.CallbackQuery):
 
 @dp.callback_query(F.data == "cancel_online_edit")
 async def cancel_online_edit(callback: types.CallbackQuery):
-    """Отмена онлайн-редактирования"""
     if not is_admin(callback.from_user):
         await callback.answer("Доступ запрещён!")
         return
 
     try:
-        # Закрываем публичный доступ
         await yandex_disk.set_private_access("/master_data.xlsx")
         await callback.answer("🔒 Редактирование отменено")
         await callback.message.answer(
@@ -720,7 +708,6 @@ async def process_email(message: types.Message, state: FSMContext):
     email = message.text
     await state.update_data(email=email)
 
-    # Создаем клавиатуру с кнопкой повтора
     builder = InlineKeyboardBuilder()
     builder.button(text="🔄 Отправить код повторно", callback_data="resend_code")
 
