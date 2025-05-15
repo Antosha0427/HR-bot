@@ -1,0 +1,65 @@
+2025-05-15 16:26:54,949 - INFO - Cloud storage connected successfully
+2025-05-15 16:26:54,975 - INFO - Проверка SMTP соединения...
+2025-05-15 16:26:56,276 - INFO - Email отправлен на kapetanamerika77@gmail.com
+2025-05-15 16:26:56,277 - INFO - SMTP соединение успешно проверено
+2025-05-15 16:26:56,279 - INFO - Starting bot...
+2025-05-15 16:26:56,494 - INFO - Start polling
+2025-05-15 16:26:56,645 - INFO - Run polling for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 16:27:01,370 - INFO - Uploaded backups/master_data_20250515_162701.xlsx to backups/master_data_20250515_162701.xlsx
+2025-05-15 16:27:01,430 - INFO - Uploaded backups/master_data_20250515_162701.enc to backups/master_data_20250515_162701.enc
+2025-05-15 16:27:01,457 - INFO - Backup completed with encrypted versions
+2025-05-15 16:27:06,550 - INFO - Uploaded backups/master_data_20250515_162706.xlsx to backups/master_data_20250515_162706.xlsx
+2025-05-15 16:27:06,604 - INFO - Uploaded backups/master_data_20250515_162706.enc to backups/master_data_20250515_162706.enc
+2025-05-15 16:27:06,607 - INFO - Backup completed with encrypted versions
+2025-05-15 16:27:06,753 - INFO - Polling stopped
+2025-05-15 16:27:06,754 - INFO - Stopping bot...
+2025-05-15 16:27:06,817 - INFO - Uploaded backups/master_data_20250515_162706.xlsx to backups/master_data_20250515_162706.xlsx
+2025-05-15 16:27:06,883 - INFO - Uploaded backups/master_data_20250515_162706.enc to backups/master_data_20250515_162706.enc
+2025-05-15 16:27:06,886 - INFO - Backup completed with encrypted versions
+2025-05-15 16:27:07,365 - INFO - Polling stopped for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 16:28:04,817 - INFO - Cloud storage connected successfully
+2025-05-15 16:28:04,819 - INFO - ==================================================
+2025-05-15 16:28:04,819 - INFO - Запуск бота. Проверка окружения...
+2025-05-15 16:28:04,820 - INFO - Проверка Яндекс.Диска...
+2025-05-15 16:28:04,887 - ERROR - Upload error: [Errno 2] No such file or directory: 'test.txt'
+2025-05-15 16:28:04,888 - INFO - Запуск завершен успешно
+2025-05-15 16:28:04,889 - INFO - ==================================================
+2025-05-15 16:28:04,889 - INFO - Проверка SMTP соединения...
+2025-05-15 16:28:06,261 - INFO - Email отправлен на kapetanamerika77@gmail.com
+2025-05-15 16:28:06,263 - INFO - SMTP соединение успешно проверено
+2025-05-15 16:28:06,263 - INFO - Starting bot...
+2025-05-15 16:28:06,470 - INFO - Start polling
+2025-05-15 16:28:06,598 - INFO - Run polling for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 16:28:08,790 - INFO - Polling stopped
+2025-05-15 16:28:08,791 - INFO - Stopping bot...
+2025-05-15 16:28:08,855 - INFO - Uploaded backups/master_data_20250515_162808.xlsx to backups/master_data_20250515_162808.xlsx
+2025-05-15 16:28:08,914 - INFO - Uploaded backups/master_data_20250515_162808.enc to backups/master_data_20250515_162808.enc
+2025-05-15 16:28:08,919 - INFO - Backup completed with encrypted versions
+2025-05-15 16:28:09,434 - INFO - Polling stopped for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 16:28:40,733 - INFO - Cloud storage connected successfully
+2025-05-15 16:28:40,736 - INFO - ==================================================
+2025-05-15 16:28:40,736 - INFO - Запуск бота. Проверка окружения...
+2025-05-15 16:28:40,737 - INFO - Проверка Яндекс.Диска...
+2025-05-15 16:28:40,812 - ERROR - Upload error: [Errno 2] No such file or directory: 'test.txt'
+2025-05-15 16:28:40,813 - INFO - Запуск завершен успешно
+2025-05-15 16:28:40,813 - INFO - ==================================================
+2025-05-15 16:28:40,813 - INFO - Проверка SMTP соединения...
+2025-05-15 16:28:42,231 - INFO - Email отправлен на kapetanamerika77@gmail.com
+2025-05-15 16:28:42,232 - INFO - SMTP соединение успешно проверено
+2025-05-15 16:28:42,233 - INFO - Starting bot...
+2025-05-15 16:28:42,437 - INFO - Start polling
+2025-05-15 16:28:42,557 - INFO - Run polling for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 16:28:45,052 - INFO - Checking admin access for: {'derzkiyboomchik', '@derzkiyboomchik', '1395978313'}
+2025-05-15 16:28:45,053 - INFO - Admin list: ['@derzkiyboomchik', '@beliaev_da']
+2025-05-15 16:28:45,053 - INFO - Access granted
+2025-05-15 16:28:45,131 - ERROR - Upload error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-05-15 16:28:45,433 - INFO - Update id=297540827 is handled. Duration 391 ms by bot id=7809109457
+2025-05-15 16:28:47,322 - INFO - Uploaded backups/master_data_20250515_162847.xlsx to backups/master_data_20250515_162847.xlsx
+2025-05-15 16:28:47,378 - INFO - Uploaded backups/master_data_20250515_162847.enc to backups/master_data_20250515_162847.enc
+2025-05-15 16:28:47,383 - INFO - Backup completed with encrypted versions
+2025-05-15 16:28:50,316 - INFO - Polling stopped
+2025-05-15 16:28:50,316 - INFO - Stopping bot...
+2025-05-15 16:28:50,406 - INFO - Uploaded backups/master_data_20250515_162850.xlsx to backups/master_data_20250515_162850.xlsx
+2025-05-15 16:28:50,456 - INFO - Uploaded backups/master_data_20250515_162850.enc to backups/master_data_20250515_162850.enc
+2025-05-15 16:28:50,461 - INFO - Backup completed with encrypted versions
+2025-05-15 16:28:50,918 - INFO - Polling stopped for bot @Balbesich_bot id=7809109457 - 'Balbesich'
