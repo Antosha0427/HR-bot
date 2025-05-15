@@ -63,3 +63,177 @@
 2025-05-15 16:28:50,456 - INFO - Uploaded backups/master_data_20250515_162850.enc to backups/master_data_20250515_162850.enc
 2025-05-15 16:28:50,461 - INFO - Backup completed with encrypted versions
 2025-05-15 16:28:50,918 - INFO - Polling stopped for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 17:45:37,344 - INFO - Cloud storage connected successfully
+2025-05-15 17:45:37,347 - INFO - ==================================================
+2025-05-15 17:45:37,347 - INFO - Запуск бота. Проверка окружения...
+2025-05-15 17:45:37,347 - INFO - Проверка Яндекс.Диска...
+2025-05-15 17:45:37,461 - ERROR - Upload error: [Errno 2] No such file or directory: 'test.txt'
+2025-05-15 17:45:37,462 - INFO - Запуск завершен успешно
+2025-05-15 17:45:37,462 - INFO - ==================================================
+2025-05-15 17:45:37,462 - INFO - Проверка SMTP соединения...
+2025-05-15 17:45:38,869 - INFO - Email отправлен на kapetanamerika77@gmail.com
+2025-05-15 17:45:38,870 - INFO - SMTP соединение успешно проверено
+2025-05-15 17:45:38,871 - INFO - Starting bot...
+2025-05-15 17:45:39,177 - INFO - Start polling
+2025-05-15 17:45:39,303 - INFO - Run polling for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 17:45:43,969 - INFO - Uploaded backups/master_data_20250515_174543.xlsx to backups/master_data_20250515_174543.xlsx
+2025-05-15 17:45:44,054 - INFO - Uploaded backups/master_data_20250515_174543.enc to backups/master_data_20250515_174543.enc
+2025-05-15 17:45:44,061 - INFO - Backup completed with encrypted versions
+2025-05-15 17:45:48,852 - INFO - Checking admin access for: {'@derzkiyboomchik', '1395978313', 'derzkiyboomchik'}
+2025-05-15 17:45:48,853 - INFO - Admin list: ['"йуоатыоам']
+2025-05-15 17:45:48,853 - INFO - Access denied
+2025-05-15 17:45:49,053 - INFO - Update id=297540828 is handled. Duration 203 ms by bot id=7809109457
+2025-05-15 17:45:49,154 - INFO - Uploaded backups/master_data_20250515_174549.xlsx to backups/master_data_20250515_174549.xlsx
+2025-05-15 17:45:49,221 - INFO - Uploaded backups/master_data_20250515_174549.enc to backups/master_data_20250515_174549.enc
+2025-05-15 17:45:49,226 - INFO - Backup completed with encrypted versions
+2025-05-15 17:45:51,366 - INFO - Update id=297540829 is handled. Duration 359 ms by bot id=7809109457
+2025-05-15 17:45:54,309 - INFO - Uploaded backups/master_data_20250515_174554.xlsx to backups/master_data_20250515_174554.xlsx
+2025-05-15 17:45:54,374 - INFO - Uploaded backups/master_data_20250515_174554.enc to backups/master_data_20250515_174554.enc
+2025-05-15 17:45:54,379 - INFO - Backup completed with encrypted versions
+2025-05-15 17:45:59,457 - INFO - Uploaded backups/master_data_20250515_174559.xlsx to backups/master_data_20250515_174559.xlsx
+2025-05-15 17:45:59,515 - INFO - Uploaded backups/master_data_20250515_174559.enc to backups/master_data_20250515_174559.enc
+2025-05-15 17:45:59,521 - INFO - Backup completed with encrypted versions
+2025-05-15 17:46:00,995 - INFO - Polling stopped
+2025-05-15 17:46:00,995 - INFO - Stopping bot...
+2025-05-15 17:46:01,067 - INFO - Uploaded backups/master_data_20250515_174600.xlsx to backups/master_data_20250515_174600.xlsx
+2025-05-15 17:46:01,665 - INFO - Uploaded backups/master_data_20250515_174600.enc to backups/master_data_20250515_174600.enc
+2025-05-15 17:46:01,670 - INFO - Backup completed with encrypted versions
+2025-05-15 17:46:02,047 - INFO - Polling stopped for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 18:01:49,999 - INFO - Cloud storage connected successfully
+2025-05-15 18:01:50,002 - INFO - ==================================================
+2025-05-15 18:01:50,002 - INFO - Запуск бота. Проверка окружения...
+2025-05-15 18:01:50,003 - INFO - Проверка Яндекс.Диска...
+2025-05-15 18:01:50,099 - ERROR - Upload error: [Errno 2] No such file or directory: 'test.txt'
+2025-05-15 18:01:50,100 - INFO - Запуск завершен успешно
+2025-05-15 18:01:50,101 - INFO - ==================================================
+2025-05-15 18:01:50,101 - INFO - Проверка SMTP соединения...
+2025-05-15 18:01:52,231 - INFO - Email отправлен на kapetanamerika77@gmail.com
+2025-05-15 18:01:52,232 - INFO - SMTP соединение успешно проверено
+2025-05-15 18:01:52,232 - INFO - Starting bot...
+2025-05-15 18:01:52,474 - INFO - Start polling
+2025-05-15 18:01:52,635 - INFO - Run polling for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 18:01:57,084 - INFO - Checking admin access for: {'derzkiyboomchik', '1395978313', '@derzkiyboomchik'}
+2025-05-15 18:01:57,084 - INFO - Admin list: ['"йуоатыоам']
+2025-05-15 18:01:57,085 - INFO - Access denied
+2025-05-15 18:01:57,312 - INFO - Uploaded backups/master_data_20250515_180157.xlsx to backups/master_data_20250515_180157.xlsx
+2025-05-15 18:01:57,370 - INFO - Uploaded backups/master_data_20250515_180157.enc to backups/master_data_20250515_180157.enc
+2025-05-15 18:01:57,375 - INFO - Backup completed with encrypted versions
+2025-05-15 18:01:57,380 - INFO - Update id=297540830 is handled. Duration 297 ms by bot id=7809109457
+2025-05-15 18:02:02,469 - INFO - Uploaded backups/master_data_20250515_180202.xlsx to backups/master_data_20250515_180202.xlsx
+2025-05-15 18:02:02,535 - INFO - Uploaded backups/master_data_20250515_180202.enc to backups/master_data_20250515_180202.enc
+2025-05-15 18:02:02,540 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:05,654 - INFO - Update id=297540831 is handled. Duration 234 ms by bot id=7809109457
+2025-05-15 18:02:07,613 - INFO - Uploaded backups/master_data_20250515_180207.xlsx to backups/master_data_20250515_180207.xlsx
+2025-05-15 18:02:07,683 - INFO - Uploaded backups/master_data_20250515_180207.enc to backups/master_data_20250515_180207.enc
+2025-05-15 18:02:07,688 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:12,779 - INFO - Uploaded backups/master_data_20250515_180212.xlsx to backups/master_data_20250515_180212.xlsx
+2025-05-15 18:02:12,841 - INFO - Uploaded backups/master_data_20250515_180212.enc to backups/master_data_20250515_180212.enc
+2025-05-15 18:02:12,846 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:17,916 - INFO - Uploaded backups/master_data_20250515_180217.xlsx to backups/master_data_20250515_180217.xlsx
+2025-05-15 18:02:18,460 - INFO - Uploaded backups/master_data_20250515_180217.enc to backups/master_data_20250515_180217.enc
+2025-05-15 18:02:18,466 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:23,542 - INFO - Uploaded backups/master_data_20250515_180223.xlsx to backups/master_data_20250515_180223.xlsx
+2025-05-15 18:02:23,601 - INFO - Uploaded backups/master_data_20250515_180223.enc to backups/master_data_20250515_180223.enc
+2025-05-15 18:02:23,607 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:25,908 - INFO - Update id=297540832 is handled. Duration 93 ms by bot id=7809109457
+2025-05-15 18:02:28,701 - INFO - Uploaded backups/master_data_20250515_180228.xlsx to backups/master_data_20250515_180228.xlsx
+2025-05-15 18:02:28,770 - INFO - Uploaded backups/master_data_20250515_180228.enc to backups/master_data_20250515_180228.enc
+2025-05-15 18:02:28,775 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:33,849 - INFO - Uploaded backups/master_data_20250515_180233.xlsx to backups/master_data_20250515_180233.xlsx
+2025-05-15 18:02:33,911 - INFO - Uploaded backups/master_data_20250515_180233.enc to backups/master_data_20250515_180233.enc
+2025-05-15 18:02:33,916 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:38,500 - INFO - Email отправлен на kapetanamerika77@gmail.com
+2025-05-15 18:02:38,594 - INFO - Update id=297540833 is handled. Duration 3516 ms by bot id=7809109457
+2025-05-15 18:02:38,996 - INFO - Uploaded backups/master_data_20250515_180238.xlsx to backups/master_data_20250515_180238.xlsx
+2025-05-15 18:02:39,055 - INFO - Uploaded backups/master_data_20250515_180238.enc to backups/master_data_20250515_180238.enc
+2025-05-15 18:02:39,060 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:44,133 - INFO - Uploaded backups/master_data_20250515_180244.xlsx to backups/master_data_20250515_180244.xlsx
+2025-05-15 18:02:44,686 - INFO - Uploaded backups/master_data_20250515_180244.enc to backups/master_data_20250515_180244.enc
+2025-05-15 18:02:44,692 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:49,788 - INFO - Uploaded backups/master_data_20250515_180249.xlsx to backups/master_data_20250515_180249.xlsx
+2025-05-15 18:02:49,857 - INFO - Uploaded backups/master_data_20250515_180249.enc to backups/master_data_20250515_180249.enc
+2025-05-15 18:02:49,862 - INFO - Backup completed with encrypted versions
+2025-05-15 18:02:54,979 - INFO - Uploaded backups/master_data_20250515_180254.xlsx to backups/master_data_20250515_180254.xlsx
+2025-05-15 18:02:55,042 - INFO - Uploaded backups/master_data_20250515_180254.enc to backups/master_data_20250515_180254.enc
+2025-05-15 18:02:55,065 - INFO - Backup completed with encrypted versions
+2025-05-15 18:03:00,125 - INFO - Uploaded backups/master_data_20250515_180300.xlsx to backups/master_data_20250515_180300.xlsx
+2025-05-15 18:03:00,181 - INFO - Uploaded backups/master_data_20250515_180300.enc to backups/master_data_20250515_180300.enc
+2025-05-15 18:03:00,186 - INFO - Backup completed with encrypted versions
+2025-05-15 18:03:01,382 - INFO - Update id=297540834 is handled. Duration 92 ms by bot id=7809109457
+2025-05-15 18:03:05,278 - INFO - Uploaded backups/master_data_20250515_180305.xlsx to backups/master_data_20250515_180305.xlsx
+2025-05-15 18:03:05,346 - INFO - Uploaded backups/master_data_20250515_180305.enc to backups/master_data_20250515_180305.enc
+2025-05-15 18:03:05,351 - INFO - Backup completed with encrypted versions
+2025-05-15 18:03:09,491 - INFO - Polling stopped
+2025-05-15 18:03:09,491 - INFO - Stopping bot...
+2025-05-15 18:03:09,832 - INFO - Uploaded backups/master_data_20250515_180309.xlsx to backups/master_data_20250515_180309.xlsx
+2025-05-15 18:03:10,475 - INFO - Uploaded backups/master_data_20250515_180309.enc to backups/master_data_20250515_180309.enc
+2025-05-15 18:03:10,481 - INFO - Backup completed with encrypted versions
+2025-05-15 18:03:10,545 - INFO - Uploaded backups/master_data_20250515_180310.xlsx to backups/master_data_20250515_180310.xlsx
+2025-05-15 18:03:10,604 - INFO - Uploaded backups/master_data_20250515_180310.enc to backups/master_data_20250515_180310.enc
+2025-05-15 18:03:10,608 - INFO - Backup completed with encrypted versions
+2025-05-15 18:03:10,931 - INFO - Polling stopped for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 18:05:56,444 - INFO - Cloud storage connected successfully
+2025-05-15 18:05:56,447 - INFO - ==================================================
+2025-05-15 18:05:56,447 - INFO - Запуск бота. Проверка окружения...
+2025-05-15 18:05:56,448 - INFO - Проверка Яндекс.Диска...
+2025-05-15 18:05:56,503 - ERROR - Upload error: [Errno 2] No such file or directory: 'test.txt'
+2025-05-15 18:05:56,504 - INFO - Запуск завершен успешно
+2025-05-15 18:05:56,504 - INFO - ==================================================
+2025-05-15 18:05:56,504 - INFO - Проверка SMTP соединения...
+2025-05-15 18:05:58,105 - INFO - Email отправлен на kapetanamerika77@gmail.com
+2025-05-15 18:05:58,106 - INFO - SMTP соединение успешно проверено
+2025-05-15 18:05:58,106 - INFO - Starting bot...
+2025-05-15 18:06:03,195 - INFO - Uploaded backups/master_data_20250515_180603.xlsx to backups/master_data_20250515_180603.xlsx
+2025-05-15 18:06:03,252 - INFO - Uploaded backups/master_data_20250515_180603.enc to backups/master_data_20250515_180603.enc
+2025-05-15 18:06:03,259 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:08,359 - INFO - Uploaded backups/master_data_20250515_180608.xlsx to backups/master_data_20250515_180608.xlsx
+2025-05-15 18:06:08,416 - INFO - Uploaded backups/master_data_20250515_180608.enc to backups/master_data_20250515_180608.enc
+2025-05-15 18:06:08,421 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:13,494 - INFO - Uploaded backups/master_data_20250515_180613.xlsx to backups/master_data_20250515_180613.xlsx
+2025-05-15 18:06:13,557 - INFO - Uploaded backups/master_data_20250515_180613.enc to backups/master_data_20250515_180613.enc
+2025-05-15 18:06:13,562 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:18,640 - INFO - Uploaded backups/master_data_20250515_180618.xlsx to backups/master_data_20250515_180618.xlsx
+2025-05-15 18:06:18,707 - INFO - Uploaded backups/master_data_20250515_180618.enc to backups/master_data_20250515_180618.enc
+2025-05-15 18:06:18,712 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:19,161 - ERROR - Не удалось отправить уведомление админу: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-05-15 18:06:19,162 - INFO - Start polling
+2025-05-15 18:06:19,410 - INFO - Run polling for bot @Balbesich_bot id=7809109457 - 'Balbesich'
+2025-05-15 18:06:19,470 - INFO - Checking admin access for: {'1395978313', '@derzkiyboomchik', 'derzkiyboomchik'}
+2025-05-15 18:06:19,471 - INFO - Admin list: ['@derzkiyboomchik']
+2025-05-15 18:06:19,471 - INFO - Access granted
+2025-05-15 18:06:19,751 - INFO - Update id=297540835 is handled. Duration 281 ms by bot id=7809109457
+2025-05-15 18:06:23,777 - INFO - Uploaded backups/master_data_20250515_180623.xlsx to backups/master_data_20250515_180623.xlsx
+2025-05-15 18:06:24,269 - INFO - Uploaded backups/master_data_20250515_180623.enc to backups/master_data_20250515_180623.enc
+2025-05-15 18:06:24,274 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:27,352 - INFO - Checking admin access for: {'1395978313', '@derzkiyboomchik', 'derzkiyboomchik'}
+2025-05-15 18:06:27,352 - INFO - Admin list: ['@derzkiyboomchik']
+2025-05-15 18:06:27,353 - INFO - Access granted
+2025-05-15 18:06:27,606 - INFO - Update id=297540836 is handled. Duration 266 ms by bot id=7809109457
+2025-05-15 18:06:29,340 - INFO - Uploaded backups/master_data_20250515_180629.xlsx to backups/master_data_20250515_180629.xlsx
+2025-05-15 18:06:29,421 - INFO - Uploaded backups/master_data_20250515_180629.enc to backups/master_data_20250515_180629.enc
+2025-05-15 18:06:29,426 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:34,502 - INFO - Uploaded backups/master_data_20250515_180634.xlsx to backups/master_data_20250515_180634.xlsx
+2025-05-15 18:06:34,580 - INFO - Uploaded backups/master_data_20250515_180634.enc to backups/master_data_20250515_180634.enc
+2025-05-15 18:06:34,588 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:39,673 - INFO - Uploaded backups/master_data_20250515_180639.xlsx to backups/master_data_20250515_180639.xlsx
+2025-05-15 18:06:39,729 - INFO - Uploaded backups/master_data_20250515_180639.enc to backups/master_data_20250515_180639.enc
+2025-05-15 18:06:39,734 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:41,076 - INFO - Update id=297540837 is handled. Duration 125 ms by bot id=7809109457
+2025-05-15 18:06:44,810 - INFO - Uploaded backups/master_data_20250515_180644.xlsx to backups/master_data_20250515_180644.xlsx
+2025-05-15 18:06:44,886 - INFO - Uploaded backups/master_data_20250515_180644.enc to backups/master_data_20250515_180644.enc
+2025-05-15 18:06:44,891 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:49,996 - INFO - Uploaded backups/master_data_20250515_180649.xlsx to backups/master_data_20250515_180649.xlsx
+2025-05-15 18:06:50,536 - INFO - Uploaded backups/master_data_20250515_180649.enc to backups/master_data_20250515_180649.enc
+2025-05-15 18:06:50,540 - INFO - Backup completed with encrypted versions
+2025-05-15 18:06:55,640 - INFO - Uploaded backups/master_data_20250515_180655.xlsx to backups/master_data_20250515_180655.xlsx
+2025-05-15 18:06:55,702 - INFO - Uploaded backups/master_data_20250515_180655.enc to backups/master_data_20250515_180655.enc
+2025-05-15 18:06:55,706 - INFO - Backup completed with encrypted versions
+2025-05-15 18:07:00,790 - INFO - Uploaded backups/master_data_20250515_180700.xlsx to backups/master_data_20250515_180700.xlsx
+2025-05-15 18:07:00,857 - INFO - Uploaded backups/master_data_20250515_180700.enc to backups/master_data_20250515_180700.enc
+2025-05-15 18:07:00,862 - INFO - Backup completed with encrypted versions
+2025-05-15 18:07:02,510 - INFO - Polling stopped
+2025-05-15 18:07:02,510 - INFO - Stopping bot...
+2025-05-15 18:07:02,583 - INFO - Uploaded backups/master_data_20250515_180702.xlsx to backups/master_data_20250515_180702.xlsx
+2025-05-15 18:07:02,646 - INFO - Uploaded backups/master_data_20250515_180702.enc to backups/master_data_20250515_180702.enc
+2025-05-15 18:07:02,650 - INFO - Backup completed with encrypted versions
+2025-05-15 18:07:02,998 - INFO - Polling stopped for bot @Balbesich_bot id=7809109457 - 'Balbesich'

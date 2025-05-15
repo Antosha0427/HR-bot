@@ -159,10 +159,7 @@ class AppConfig:
     BACKUP_INTERVAL = int(os.getenv('BACKUP_INTERVAL', 3600))
     SECRET_CODE = os.getenv('SECRET_CODE', 'DEFAULT_CODE')
     VERIFICATION_STRING = os.getenv('VERIFICATION_STRING', 'DEFAULT_VERIFICATION')
-    DATA_HASH_SALT = os.getenv('DATA_HASH_SALT', 'DEFAULT_SALT')
 
-    AIRTABLE_API_KEY = os.getenv('AIRTABLE_API_KEY')
-    AIRTABLE_BASE_ID = os.getenv('AIRTABLE_BASE_ID')
 
 
 if not all([AppConfig.BOT_TOKEN, AppConfig.ADMINS]):
@@ -593,7 +590,6 @@ yandex_disk = YandexDiskManager()
 
 @dp.callback_query(F.data == "admin_online_edit")
 async def admin_online_edit(callback: types.CallbackQuery):
-    """Обработчик кнопки онлайн-редактирования"""
     if not is_admin(callback.from_user):
         await callback.answer("Доступ запрещён!")
         return
@@ -896,7 +892,6 @@ async def periodic_backup():
 
 
 async def auto_sync_loop():
-    """Фоновая задача для автосинхронизации"""
     while True:
         try:
             cloud_ver = await yandex_disk.get_file_version("/master_data.xlsx")

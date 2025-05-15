@@ -1,0 +1,10 @@
+aiogram
+openpyxl
+cryptography
+smtplib
+email_validator
+boto3
+shutil
+requests
+ssl
+selenium

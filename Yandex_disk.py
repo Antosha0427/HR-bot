@@ -36,7 +36,6 @@ class YandexDiskManager:
             return False
 
     async def set_public_access(self, cloud_path: str) -> bool:
-        """Открывает публичный доступ к файлу"""
         try:
             response = requests.put(
                 f"{self.base_url}/resources/publish",
@@ -49,7 +48,6 @@ class YandexDiskManager:
             return False
 
     async def set_private_access(self, cloud_path: str) -> bool:
-        """Закрывает публичный доступ к файлу"""
         try:
             response = requests.put(
                 f"{self.base_url}/resources/unpublish",
@@ -62,7 +60,6 @@ class YandexDiskManager:
             return False
 
     async def force_save_via_chrome(self, doc_url: str) -> bool:
-        """Принудительное сохранение через Chrome"""
         driver = None
         try:
             options = Options()
@@ -83,7 +80,6 @@ class YandexDiskManager:
                 driver.quit()
 
     async def get_file_version(self, cloud_path: str) -> str:
-        """Получает дату последнего изменения файла"""
         try:
             response = requests.get(
                 f"{self.base_url}/resources?path={quote(cloud_path)}",
